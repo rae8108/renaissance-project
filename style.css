@@ -31,11 +31,6 @@ h2 {
   margin-top: 20px;
 }
 
-.H {
-  font-size: 60px;
-  margin-top: 10px;
-}
-
 img.img-fluid.rounded {
   object-fit: cover;
   margin-top: 30px;
@@ -44,9 +39,32 @@ img.img-fluid.rounded {
 footer {
   position: fixed;
   font-size: 12px;
-
   bottom: 0;
   height: 80px;
   padding-bottom: 20px;
   width: 100%;
 }
+
+/* @media (max-width: 550px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center !important;
+  }
+
+  img {
+    display: none;
+  }
+
+  .bee {
+    width: 550px;
+    display: block;
+  }
+
+  .project {
+    text-align: center;
+  }
+} */
