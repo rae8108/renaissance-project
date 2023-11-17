@@ -68,3 +68,28 @@ footer {
     text-align: center;
   }
 } */
+
+@media (max-width: 550px) {
+  h1,
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  img {
+    display: none;
+  }
+
+  .bee {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    font-size: 10px;
+  }
+}
